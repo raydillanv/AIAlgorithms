@@ -12,6 +12,10 @@ def minimax_value(state):
     print("The state is: " + str(piles) + " and Player is: " + str(player))
     return sam
 
+def makeMove(piles):
+    
+    moveMade = piles
+    return moveMade
 
 if __name__ == "__main__":
     # Example usage of minimax
