@@ -80,6 +80,6 @@ def test_timing(state):
     #print('Time taken:', duration)
     return duration, value
 
-output = (test_timing(([20,20],1)))
+output = (test_timing(([5,2,2,3],1)))
 print("Time taken", output[0])
 print("Value returned", output[1])
